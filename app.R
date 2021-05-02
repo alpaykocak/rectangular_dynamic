@@ -2,7 +2,6 @@ library(shiny)
 library(tidyverse)
 library(gapminder)
 library(treemapify)
-dattum <- 
 ui <-fluidPage(
     titlePanel("Rectangular Presentation of Gapminder Indicators"),
     sidebarLayout(      
